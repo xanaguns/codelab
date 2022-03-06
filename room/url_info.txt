@@ -1,0 +1,16 @@
+02.01_Room을 사용하여 데이터 유지
+start: android-basics-kotlin-inventory-app-starter
+solution : android-basics-kotlin-inventory-app-room
+https://developer.android.com/codelabs/basic-android-kotlin-training-persisting-data-room?hl=ko#0
+https://github.com/google-developer-training/android-basics-kotlin-inventory-app/tree/starter
+
+02.02_Room을 사용하여 데이터 읽기 및 업데이트
+start : android-basics-kotlin-inventory-app-room
+solution : android-basics-kotlin-inventory-app-main
+https://developer.android.com/codelabs/basic-android-kotlin-training-update-data-room?hl=ko#5
+https://github.com/google-developer-training/android-basics-kotlin-inventory-app/tree/room
+
+02.03_뷰를 사용한 Android Room - Kotlin
+solution : android-room-with-a-view-kotlin
+https://developer.android.com/codelabs/android-room-with-a-view-kotlin?hl=ko#0
+https://github.com/googlecodelabs/android-room-with-a-view/tree/kotlin

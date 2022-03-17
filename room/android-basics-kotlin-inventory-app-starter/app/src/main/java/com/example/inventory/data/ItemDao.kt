@@ -15,11 +15,11 @@ interface ItemDao {
     fun getItem(id: Int): Flow<Item>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(item: Item)
+    fun insert(item: Item)
 
     @Update
-    suspend fun update(item: Item)
+    fun update(item: Item)
 
     @Delete
-    suspend fun delete(item: Item)
+    fun delete(item: Item)
 }

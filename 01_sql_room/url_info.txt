@@ -1,0 +1,10 @@
+01.01_SQL 기본사항
+android-basics-kotlin-sql-basics-app-main
+https://developer.android.com/codelabs/basic-android-kotlin-training-sql-basics?hl=ko#0
+https://github.com/google-developer-training/android-basics-kotlin-sql-basics-app
+
+01.02_Room 및 Flow 소개
+start: android-basics-kotlin-bus-schedule-app-starter
+solution : android-basics-kotlin-bus-schedule-app-main
+https://developer.android.com/codelabs/basic-android-kotlin-training-intro-room-flow?hl=ko#0
+https://github.com/google-developer-training/android-basics-kotlin-bus-schedule-app/tree/starter

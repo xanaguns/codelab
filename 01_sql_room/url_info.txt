@@ -3,6 +3,9 @@ android-basics-kotlin-sql-basics-app-main
 https://developer.android.com/codelabs/basic-android-kotlin-training-sql-basics?hl=ko#0
 https://github.com/google-developer-training/android-basics-kotlin-sql-basics-app
 
+  01.01.01_Database Inspector로 데이터베이스 디버그하기
+    https://developer.android.com/studio/inspect/database?utm_source=android-studio
+
 01.02_Room 및 Flow 소개
 start: android-basics-kotlin-bus-schedule-app-starter
 solution : android-basics-kotlin-bus-schedule-app-main

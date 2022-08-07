@@ -1,6 +1,10 @@
 package com.guns.kotlinintroduction
 
 fun main() {
+    val diceRange = 1..6
+    val randomNumber = diceRange.random()
+    println("Random number: ${randomNumber}")
+
     val myFirstDice = Dice(6)
     println("Your ${myFirstDice.numSides} sided dice rolled ${myFirstDice.roll()}!")
 

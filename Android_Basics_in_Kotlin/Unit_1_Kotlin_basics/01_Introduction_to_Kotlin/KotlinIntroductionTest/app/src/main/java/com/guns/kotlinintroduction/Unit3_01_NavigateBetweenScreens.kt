@@ -39,4 +39,52 @@ fun main() {
     // 3.3 filter
     val filteredNames = peopleAges.filter { it.key.length < 4 }
     println(filteredNames)
+
+    //=====================================================================
+    // 4. Learn about lambdas and higher-order functions
+    //=====================================================================
+
+    // 4.1 Lambdas
+    peopleAges.forEach { print("${it.key} is ${it.value}, ")}
+    println()
+
+    // 4.2 Function types
+    val triple: (Int) -> Int = { a: Int -> a * 3 }
+    println(triple(5))
+    val triple2: (Int) -> Int = { it * 3 }
+    println(triple2(5))
+
+    // 4.3 Higher-order functions
+    val peopleNames = listOf("Fred", "Ann", "Barbara", "Joe")
+    println(peopleNames.sorted())
+    println(peopleNames.sortedWith { str1: String, str2: String -> str1.length - str2.length })
+
+    // 4.4 OnClickListener and OnKeyListener in Android
+    //calculateButton.setOnClickListener { calculateTip() }
+    //costOfServiceEditText.setOnKeyListener { view, keyCode, event -> handleKeyEvent(view, keyCode) }
+    //costOfServiceEditText.setOnKeyListener { view, keyCode, _ -> handleKeyEvent(view, keyCode) }
+
+    //=====================================================================
+    // 5. Make word lists
+    //=====================================================================
+
+    val words = listOf("about", "acute", "awesome", "balloon", "best", "brief", "class", "coffee", "creative")
+
+    val filteredWords = words.filter { it.startsWith("b", ignoreCase = true) }
+    println(filteredWords)
+
+    val filteredShuffledWords = words.filter { it.startsWith("b", ignoreCase = true) }
+        .shuffled()
+    println(filteredShuffledWords)
+
+    val filteredShuffledTakeWords = words.filter { it.startsWith("b", ignoreCase = true) }
+        .shuffled()
+        .take(2)
+    println(filteredShuffledTakeWords)
+
+    val filteredShuffledTakeSortedWords = words.filter { it.startsWith("b", ignoreCase = true) }
+        .shuffled()
+        .take(2)
+        .sorted()
+    println(filteredShuffledTakeSortedWords)
 }
